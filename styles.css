@@ -1,0 +1,83 @@
+/* styles.css */
+body {
+  font-family: 'Carlito', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+.filter label {
+  font-size: 1rem; /* Standaard grootte voor desktop */
+}
+
+.filter select {
+  font-size: 1rem; /* Standaard grootte voor dropdown */
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Mobiele aanpassingen (schermen kleiner dan 600px) */
+@media (max-width: 600px) {
+  .filter label {
+    font-size: 1.2rem; /* Grotere tekst voor label op mobiel */
+  }
+
+  .filter select {
+    font-size: 1.2rem; /* Grotere tekst voor dropdown op mobiel */
+    padding: 8px; /* Iets meer padding voor betere touch-bediening */
+    width: 100%; /* Zorgt dat dropdown de volle breedte gebruikt */
+  }
+}
+
+.stuk {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+textarea {
+  width: 100%;
+  resize: vertical;
+  font-family: 'Carlito', sans-serif;
+  padding: 5px;
+}
+
+/* Aangepaste stijl voor audio-items */
+.audio-item {
+  margin: 10px 0;
+  display: flex; /* Gebruik flexbox voor horizontale uitlijning */
+  align-items: center; /* Verticaal centreren */
+}
+
+.audio-item strong {
+  margin-right: 10px; /* Ruimte tussen label en audio */
+  min-width: 60px; /* Minimaal breedte voor consistente uitlijning */
+  font-weight: 600; /* Iets vetter voor duidelijkheid */
+}
+
+.audio-item audio {
+  flex: 1; /* Laat audio-element de resterende ruimte vullen */
+  max-width: 200px; /* Beperk de breedte voor een nette look */
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+}
