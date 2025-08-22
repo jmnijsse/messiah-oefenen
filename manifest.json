@@ -3,7 +3,7 @@
   "short_name": "Messiah",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#ffffff",
+  "background_color": "#e0e0e0",
   "description": "Studieplanning en oefenmateriaal voor de Scratch Messiah.",
   "icons": []
 }
